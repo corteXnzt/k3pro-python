@@ -5,4 +5,6 @@ Code is based from code on comment from this youtube video.
 
 https://youtu.be/4Q-01PvDO94
 
-I modified it since two temperature shows and the decimal of the second value is not included on output on my k3 pro thermometer. The second temp value is rounded off shown on thermometer screen.
+I modified it since 2 temperature shows consecutively and the decimal of the 2nd temp value is not included on python script output. The 2nd temp value is rounded off and is shown on thermometer screen.
+
+![temp-data](https://user-images.githubusercontent.com/49268713/212336933-b6788e05-8020-495b-8126-ea31980f6666.png)

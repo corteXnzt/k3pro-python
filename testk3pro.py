@@ -4,7 +4,7 @@ from time import sleep
 port = "/dev/ttyUSB0"
 ser = serial.Serial(port, 115200, timeout=0)
 
-add_preceeding_data = False
+add_decimal = False
 temperature = ''
 
 while True:

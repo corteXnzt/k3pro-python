@@ -11,14 +11,14 @@ while True:
 	data = ser.read(9999)
 	if len(data) > 1:
 		# print(data)
-		if(add_preceeding_data):
-			add_preceeding_data = False
+		if(add_decimal):
+			add_decimal = False
 			temperature = temperature + data[0:4]
 			print(temperature)
 			
 		position = data.decode('ISO-8859-1').rfind('T body =')		
 		if position > 1:
 			if(position == 21):
-				add_preceeding_data = True
+				add_decimal = True
 				temperature = data[position + 9 : position + 9 + 7]	
 ser.close()
